@@ -69,6 +69,8 @@ public class CameraController : MonoBehaviour
         if (HudManager.Instance.IsPause) return;
         if (playerController.Freeze) return;
 
+
+
         rotAroundX += x * OptionsManager.Instance.Sensitivity.Remap(0, 100, 0, 5);
         rotAroundY += y * OptionsManager.Instance.Sensitivity.Remap(0, 100, 0, 5);
 

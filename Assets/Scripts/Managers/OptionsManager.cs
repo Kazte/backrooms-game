@@ -273,7 +273,7 @@ public class OptionsManager : MonoBehaviour
 
         foreach (var resolution in resolutions)
         {
-            Debug.Log(resolution);
+            // Debug.Log(resolution);
         }
 
         resolutionsDropdown.ClearOptions();
